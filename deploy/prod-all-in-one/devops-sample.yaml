@@ -7,7 +7,7 @@ metadata:
     component: ks-sample
     tier: backend
   name: ks-sample
-  namespace: kubesphere-sample-prod
+  namespace: ibk
 spec:
   progressDeadlineSeconds: 600
   replicas: 2
@@ -67,14 +67,14 @@ metadata:
     app: kubesphere
     component: ks-sample
   name: ks-sample
-  namespace: kubesphere-sample-prod
+  namespace: ibk
 spec:
   ports:
     - name: http
       port: 8080
       protocol: TCP
       targetPort: 8080
-      nodePort: 30961
+      nodePort: 30008
   selector:
     app: kubesphere
     component: ks-sample
