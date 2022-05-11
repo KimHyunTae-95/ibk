@@ -14,6 +14,6 @@ public class HelloWorldController {
 
     @RequestMapping("/")
     public String sayHello() {
-        return "Really appreciate your star, that's the power of our life.";
+        return "IBK 기업은행 시연 페이지 입니다.";
     }
 }
